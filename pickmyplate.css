@@ -1,0 +1,19 @@
+#welcome{
+	height:8.5rem;
+	background: rgba(0,0,0,0.7);
+	background-image:url('http://www.vegetables.co.nz/assets/Uploads/vegetables.jpg');
+	
+	}
+#welcome h1{
+	color:white;
+	font-family:'Merriweather',serif;
+	font-weight:bold;
+	}
+#welcome p{
+	color:white;
+	font-family:'Merriweather',serif;
+	font-weight:bold;
+	}
+
+
+	

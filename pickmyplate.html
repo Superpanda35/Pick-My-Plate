@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="cache-control" content="no-cache"/>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/pickmyplate.css')}}">
+<title>Pick My Plate</title>
+</head>
+<body>
+<div id="welcome">
+<h1>Welcome to Pick My Plate</h1>
+<p> Let us decide your next meal! Just answer these few questions.</p>
+</div>
+<form  method="post">
+<fieldset>
+<section>
+<div>
+{{ form.radiofield1.label }}
+{{form.radiofield1 }}
+</div>
+<div><br>
+{{ form.radiofield2.label }}
+{{form.radiofield2 }}
+</div>
+<div><br>
+{{ form.radiofield3.label }}
+{{form.radiofield3 }}
+</div>
+</section>
+<section><br>
+{{form.submit}}
+</section>
+</fieldset>
+</form>
+</body>
+</html>
+
